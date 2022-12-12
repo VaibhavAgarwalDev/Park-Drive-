@@ -1,0 +1,289 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#title {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.2)),url(../images/pexels-erik-mclean-5199517.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+p {
+  color: #2D3B40;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+.glass-box{
+  backdrop-filter: blur(10px);
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-color: #fff;
+  box-shadow: rgba(204, 219, 232, 0.3) 3px 3px 6 0 inset;
+}
+
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 1rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-left: 18px;
+}
+
+.nav-item {
+  padding: 0 18px 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+}
+
+.nav-link:hover{
+  transform: scale(1.1);
+  color: #fff;
+}
+
+/* Title header */
+
+
+.header{
+  text-align: center;
+  padding: 6% 0;
+  justify-content: center;
+}
+
+
+.text-sub{
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 2% 2%;
+}
+
+.text-light{
+  margin: 0;
+}
+
+/* Download Button */
+
+.download-button-1 {
+  margin: 3% 1.5% 0 5%;
+}
+
+.download-button-2 {
+  margin: 3% 5% 0 1.5%;
+}
+
+
+/* Features Tab */
+
+.features-container{
+  padding: 0;
+}
+
+#features {
+  padding: 10% 0;
+  text-align: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.features-box{
+  padding: 5% 2%;
+  background-color: #edf4f581;
+  border-radius: 20px;
+  height: 400px;
+  width: 350px;
+  transition: all 0.3s;
+  margin: auto 20px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0 inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+
+.box:hover .features-icon {
+  transform: scale(1.05);
+}
+
+.features-icons {
+  color: #000;
+  margin-bottom: 10%;
+  transition: all 0.2s;
+}
+
+
+.features-box:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+  color: #0570C7;
+}
+
+
+.features-heading {
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 10%;
+}
+.feature-description
+{
+  text-decoration: none;
+}
+
+
+
+/* Testimonials section */
+
+#testimonial-carousel {
+  padding: 5% 18%;
+}
+
+#testimonials {
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.2)),url(../images/pexels-erik-mclean-5199500.jpg);
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
+  background-attachment: fixed;
+}
+
+.glass-box{
+  margin: 5% 5%;
+}
+
+.carousel-item{
+  min-width: 100%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 5% 3%;
+}
+
+.carousel-indicators {
+  margin-bottom: 20px;
+}
+
+.testimonial-text{
+  margin: 5% 5% 0 5%;
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.glass-box:hover {
+  box-shadow: 0 0 16px 0 rgba(255, 255, 255, 0.5);
+}
+
+
+/* Pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* Call to action */
+#cta {
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.2)),url(../images/pexels-erik-mclean-5199493.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.cta-div {
+  padding: 3% 4%;
+}
+
+.cta-heading {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+/* Footer */
+
+#footer {
+  font-family: "Montserrat", sans-serif;
+  /* background-color: #141E61;
+    color: #EEEEEE; */
+  padding-top: 4%;
+  margin-bottom: 4%;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1;
+  padding-bottom: 10px;
+}
+
+.social-icon {
+  color: #8f8f8f;
+  font-size: 2rem;
+  padding: 1% 1%;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+  color: #0c1341;
+  transform: scale(1.5);
+}
+
+.copy-right {
+  margin-top: 30px;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #0c1341;
+}
+
+/* Media viewPort */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+}
